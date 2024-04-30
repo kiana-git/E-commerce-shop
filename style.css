@@ -40,6 +40,7 @@ a{
 }
 .title p{
     text-transform: capitalize;
+    text-decoration: none;
 }
 ul{
     list-style: none;
@@ -85,6 +86,7 @@ sup{
     vertical-align: middle;
     transition: color 0.3s ease;
     z-index: 2;
+    text-decoration: none;
 }
 .btn::before{
     position: absolute;
@@ -115,7 +117,7 @@ button{
     background: transparent;
     border: none;
     outline: none;
-    cursor: pointer;
+    
 }
 .banner{
     background-image: url('img/banner.jpg');
